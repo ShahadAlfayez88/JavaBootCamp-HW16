@@ -84,6 +84,9 @@ VALUES (123, 'United Stated', 'USA');
 INSERT INTO products (productId, name, price, status)
 VALUES (1,'pepsi',10,'valid');
 
+INSERT INTO products (productId, name, price, status)
+VALUES (2,'cola',10,'valid');
+
 INSERT INTO orders(orderId, status, user_id)
 values(1,'start',1)
 
@@ -93,7 +96,7 @@ set  continent_name='Saudi Arabia', name='KSA'
 where countriesCode=123
 
 ## delete
-DELETE FROM products WHERE productId=1;
+DELETE FROM products WHERE productId=2;
 
 
 
